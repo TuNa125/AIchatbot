@@ -9,11 +9,11 @@ def index_get():
     return render_template("base.html")
 
 @app.post("/predict")
-def predict():
     text = request.get_json().get("message")
-    #to check if the text is valid
+
+#to check if text is valid
     response = get_response(text)
-    messsage = {"answer": response}
+    message = {"answer": response}
     return jsonify(message)
 
 if __name__ == "__main__":
