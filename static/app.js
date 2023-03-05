@@ -62,7 +62,7 @@ onSendButton(chatbox) {
         let msg2 = { name: "Sam", message: r.answer};
         this.messages.push(msg2); //push msg back to array
         this.updateChatText(chatbox)
-        textField.value = ''
+        textField.value = '' console.log(xxx)
     
     }).catch((error) => {
         console.error('Error:', error);
@@ -95,6 +95,7 @@ updateChatText(chatbox) {
 }
 
 }
+
 
 const chatbox = new Chatbox();
 chatbox.diplay();
