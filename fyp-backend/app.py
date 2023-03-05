@@ -6,6 +6,7 @@ app = Flask(__name__)
 CORS(app)
 
 @app.post("/predict")
+def predict_route():
     text = request.get_json().get("message")
 
 #to check if text is valid
