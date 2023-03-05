@@ -28,44 +28,162 @@
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!", "nice"],
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
-      "tag": "items",
+      "tag": "service",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "Help",
+        "What can I ask?",
+        "what can i ask?",
+        "what can i ask"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "Hi, please contact 999 for emergency and below is the list of services that are provided: \n1. Definition of Diabetes, COVID-19 and HIV/AIDS \n2. Symptoms of Diabetes, COVID-19 and HIV/AIDS \nPrevention of Diabetes, COVID-19 and HIV/AIDS "
+        
       ]
     },
     {
-      "tag": "payments",
+      "tag": "definition",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "definition",
+        "definition?"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "Hi, please specify which disease \n1. Diabetes definition \nCOVID-19 definition \nHIV/AIDS definition"
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "ddefinition",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "Diabetes definition",
+        "Diabetes definition?",
+        "diabetes definition?",
+        "diabetes definition"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "Based on World Health Organisation (WHO), Diabetes is a chronic disease that occurs either when the pancreas does not produce enough insulin or when the body cannot effectively use the insulin it produces. Insulin is a hormone that regulates blood glucose. Hyperglycaemia, also called raised blood glucose or raised blood sugar, is a common effect of uncontrolled diabetes and over time leads to serious damage to many of the body's systems, especially the nerves and blood vessels. \nThere are two types of diabetes which are the type 1 and type 2 diabetes: \n1. Type 1 diabetes (previously known as insulin-dependent, juvenile or childhood-onset) is characterized by deficient insulin production and requires daily administration of insulin. \n2. Type 2 diabetes (formerly called non-insulin-dependent, or adult-onset) results from the body’s ineffective use of insulin."
+      ]
+    },
+    {
+      "tag": "cdefinition",
+      "patterns": [
+        "covid definition",
+        "COVID definition",
+        "covid19 definition",
+        "COVID-19 definition?",
+        "covid-19 definition?"
+      ],
+      "responses": [
+        "Based on World Health Organisation (WHO), Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus. \nMost people infected with the virus will experience mild to moderate respiratory illness and recover without requiring special treatment. However, some will become seriously ill and require medical attention. Older people and those with underlying medical conditions like cardiovascular disease, diabetes, chronic respiratory disease, or cancer are more likely to develop serious illness. Anyone can get sick with COVID-19 and become seriously ill or die at any age."
+      ]
+    },
+    {
+      "tag": "hdefinition",
+      "patterns": [
+        "hiv definition",
+        "aids definition",
+        "HIV definition?",
+        "AIDS definition?"
+      ],
+      "responses": [
+        "Based on World Health Organisation (WHO), Human immunodeficiency virus (HIV) is an infection that attacks the body’s immune system, specifically the white blood cells called CD4 cells. HIV destroys these CD4 cells, weakening a person’s immunity against opportunistic infections, such as tuberculosis and fungal infections, severe bacterial infections and some cancers."
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "symptoms",
+        "symptom"
+      ],
+      "responses": [
+        "Hi, please specify which disease \n1. Diabetes symptoms \nCOVID-19 symptoms \nHIV/AIDS symptoms"
+      ]
+    },
+    {
+      "tag": "dsymptoms",
+      "patterns": [
+        "diabetes symptoms",
+        "Diabetes symptoms"
+      ],
+      "responses": [
+        "Common symptoms for diabetes: \n1. Urinate (pee) a lot, often at night. \n2. Are very thirsty all the time. \n3. Lose weight without trying. \n4. Are very hungry all the time. \n5. Have numb or tingling hands or feet."
+      ]
+    },
+    {
+      "tag": "csymptoms",
+      "patterns": [
+        "covid symptoms?",
+        "COVID symptoms?",
+        "covid19 symptoms",
+        "COVID-19 symptoms?",
+        "covid-19 symptoms"
+      ],
+      "responses": [
+        "Common symptoms for COVID-19: \n1. Fever \n2. Cough \n3. Losing sense of taste and smell \n4. Fatigue \n5. Muscle or joint aches"
+      ]
+    },
+    {
+      "tag": "hsymptoms",
+      "patterns": [
+        "hiv symptoms",
+        "aids symptoms",
+        "HIV symptoms",
+        "AIDS symptoms"
+      ],
+      "responses": [
+        "Common symptoms for HIV/AIDS: \n1. Flu \n2. Chills \n3. Cold sweats \n4. Sore throat \n5. Constant fatigue"
+      ]
+    },
+    {
+      "tag": "dprevention",
+      "patterns": [
+        "diabetes prevention?",
+        "Diabetes prevention",
+        "Diabetes prevention?",
+        "diabetes prevention?"
+      ],
+      "responses": [
+        "Prevention for diabetes: \n1.  Lose extra weight \n2. Remain physically active \n3. Reduce eating unhealthy food"
+      ]
+    },
+    {
+      "tag": "cprevention",
+      "patterns": [
+        "covid-19 prevention?",
+        "covid prevention",
+        "COVID prevention?",
+        "COVID-19 prevention?",
+        "COVID-19 prevention",
+        "covid-19 prevention"
+      ],
+      "responses": [
+        "Prevention for COVID-19: \n1. Avoid crowded places \n2. Wash hands frequently \n3. Wear a face mask when in public"
+      ]
+    },
+    {
+      "tag": "hprevention",
+      "patterns": [
+        "hiv prevention?",
+        "HIV prevention",
+        "aids prevention?",
+        "AIDS prevention?",
+        "HIV/AIDS prevention",
+        "hiv/aids prevention?"
+      ],
+      "responses": [
+        "Prevention for HIV/AIDS: \n1. Avoid sharing razors \n2. Use condom during sex \n3. Always use sterile needles"
+      ]
+    },
+    {
+      "tag": "prevention",
+      "patterns": [
+        "prevention?",
+        "prevention"
+      ],
+      "responses": [
+        "Please specify prevention for what disease \n1. Diabetes prevention \nCOVID-19 prevention \nHIV/AIDS prevention"
       ]
     },
     {
