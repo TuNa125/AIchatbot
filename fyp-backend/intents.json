@@ -40,7 +40,7 @@
         "what can i ask"
       ],
       "responses": [
-        "Hi, please contact 999 for emergency and below is the list of services that are provided: \n1. Definition of Diabetes, COVID-19 and HIV/AIDS \n2. Symptoms of Diabetes, COVID-19 and HIV/AIDS \n3. Prevention of Diabetes, COVID-19 and HIV/AIDS "
+        "Hi, please contact 999 for emergency and below is the list of services that are provided: <br>1. Definition of Diabetes, COVID-19 and HIV/AIDS <br>2. Symptoms of Diabetes, COVID-19 and HIV/AIDS <br>3. Prevention of Diabetes, COVID-19 and HIV/AIDS "
         
       ]
     },

@@ -42,7 +42,7 @@ class Chatbox {
             chatbox.classList.remove('chatbox--active')
         }
     }
-
+    //takes user input and find in intents json if matches then message is returned back
     onSendButton(chatbox) {
             var textField = chatbox.querySelector('input');
             let text1 = textField.value
