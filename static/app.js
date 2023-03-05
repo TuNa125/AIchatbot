@@ -38,4 +38,63 @@ diplay () {
         }
     }
 
+onSendButton(chatbox) {
+    var textField = chatbox.querySelector('input');
+    let text1 = textField.value
+    if (text1 === "") {
+        return;
+    }
+
+    let msg1 = { name: "User", message: text1 }
+    this.message.push(msg1);
+
+    //'http://127.0.0.1:5000/predict
+    fetch($SCRIPT_ROOT + '/predict', {
+        method: 'POST',
+        body: JSON.stringify{ message: text1}),
+        mode: 'cors',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+    })
+    .then(r => r.json())
+    .then(r => {
+        let msg2 = { name: "Sam", message: r.answer};
+        this.messages.push(msg2); //push msg back to array
+        this.updateChatText(chatbox)
+        textField.value = ''
+    
+    }).catch((error) => {
+        console.error('Error:', error);
+        this.updateChatText(chatbox)
+        textField.value = ''
+
+    });
+
+
+
+
+
+}  
+
+updateChatText(chatbox) {
+    var html = '';
+    this.message.slice().reverse().forEach(function(item, ) {
+        if (item.name === "Sam") //name of chatbot
+        {
+            html += '<div class="messages__item messages__item--visitor">' + item.messages + '</div>'
+        }
+        else
+        {
+            html += '<div class="messages__item messages__item--operator">' + item.messages + '</div>'
+        }
+    });
+
+    const chatmessage = chatbox.querySelector('.chatbox__messages');
+    chatmessage.innerHTML = html;
 }
+
+}
+
+const chatbox = new Chatbox();
+chatbox.diplay();
