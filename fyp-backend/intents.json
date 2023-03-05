@@ -40,7 +40,7 @@
         "what can i ask"
       ],
       "responses": [
-        "Hi, please contact 999 for emergency and below is the list of services that are provided: \n1. Definition of Diabetes, COVID-19 and HIV/AIDS \n2. Symptoms of Diabetes, COVID-19 and HIV/AIDS \nPrevention of Diabetes, COVID-19 and HIV/AIDS "
+        "Hi, please contact 999 for emergency and below is the list of services that are provided: \n1. Definition of Diabetes, COVID-19 and HIV/AIDS \n2. Symptoms of Diabetes, COVID-19 and HIV/AIDS \n3. Prevention of Diabetes, COVID-19 and HIV/AIDS "
         
       ]
     },
@@ -51,7 +51,7 @@
         "definition?"
       ],
       "responses": [
-        "Hi, please specify which disease \n1. Diabetes definition \nCOVID-19 definition \nHIV/AIDS definition"
+        "Hi, please specify which disease \n1. Diabetes definition \n2. COVID-19 definition \n3. HIV/AIDS definition"
       ]
     },
     {
@@ -98,7 +98,7 @@
         "symptom"
       ],
       "responses": [
-        "Hi, please specify which disease \n1. Diabetes symptoms \nCOVID-19 symptoms \nHIV/AIDS symptoms"
+        "Hi, please specify which disease \n1. Diabetes symptoms \n2. COVID-19 symptoms \n3. HIV/AIDS symptoms"
       ]
     },
     {
@@ -134,6 +134,16 @@
       ],
       "responses": [
         "Common symptoms for HIV/AIDS: \n1. Flu \n2. Chills \n3. Cold sweats \n4. Sore throat \n5. Constant fatigue"
+      ]
+    },
+    {
+      "tag": "prevention",
+      "patterns": [
+        "prevention?",
+        "prevention"
+      ],
+      "responses": [
+        "Please specify prevention for what disease \n1. Diabetes prevention \n2. COVID-19 prevention \n3. HIV/AIDS prevention"
       ]
     },
     {
@@ -174,16 +184,6 @@
       ],
       "responses": [
         "Prevention for HIV/AIDS: \n1. Avoid sharing razors \n2. Use condom during sex \n3. Always use sterile needles"
-      ]
-    },
-    {
-      "tag": "prevention",
-      "patterns": [
-        "prevention?",
-        "prevention"
-      ],
-      "responses": [
-        "Please specify prevention for what disease \n1. Diabetes prevention \nCOVID-19 prevention \nHIV/AIDS prevention"
       ]
     },
     {
