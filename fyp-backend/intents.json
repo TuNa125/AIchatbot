@@ -98,7 +98,7 @@
         "symptom"
       ],
       "responses": [
-        "Hi, please specify which disease \n1. Diabetes symptoms \n2. COVID-19 symptoms \n3. HIV/AIDS symptoms"
+        "Hi, please specify which disease <br>1. Diabetes symptoms <br>2. COVID-19 symptoms <br>3. HIV/AIDS symptoms"
       ]
     },
     {
@@ -108,7 +108,7 @@
         "Diabetes symptoms"
       ],
       "responses": [
-        "Common symptoms for diabetes: \n1. Urinate (pee) a lot, often at night. \n2. Are very thirsty all the time. \n3. Lose weight without trying. \n4. Are very hungry all the time. \n5. Have numb or tingling hands or feet."
+        "Common symptoms for diabetes: <br>1. Urinate (pee) a lot, often at night. <br>2. Are very thirsty all the time. <br>3. Lose weight without trying. <br>4. Are very hungry all the time. <br>5. Have numb or tingling hands or feet."
       ]
     },
     {
@@ -121,7 +121,7 @@
         "covid-19 symptoms"
       ],
       "responses": [
-        "Common symptoms for COVID-19: \n1. Fever \n2. Cough \n3. Losing sense of taste and smell \n4. Fatigue \n5. Muscle or joint aches"
+        "Common symptoms for COVID-19: <br>1. Fever <br>2. Cough <br>3. Losing sense of taste and smell <br>4. Fatigue <br>5. Muscle or joint aches"
       ]
     },
     {
@@ -133,7 +133,7 @@
         "AIDS symptoms"
       ],
       "responses": [
-        "Common symptoms for HIV/AIDS: \n1. Flu \n2. Chills \n3. Cold sweats \n4. Sore throat \n5. Constant fatigue"
+        "Common symptoms for HIV/AIDS: <br>1. Flu <br>2. Chills <br>3. Cold sweats <br>4. Sore throat <br>5. Constant fatigue"
       ]
     },
     {
@@ -143,7 +143,7 @@
         "prevention"
       ],
       "responses": [
-        "Please specify prevention for what disease \n1. Diabetes prevention \n2. COVID-19 prevention \n3. HIV/AIDS prevention"
+        "Please specify prevention for what disease <br>1. Diabetes prevention <br>2. COVID-19 prevention <br>3. HIV/AIDS prevention"
       ]
     },
     {
@@ -155,7 +155,7 @@
         "diabetes prevention?"
       ],
       "responses": [
-        "Prevention for diabetes: \n1.  Lose extra weight \n2. Remain physically active \n3. Reduce eating unhealthy food"
+        "Prevention for diabetes: <br>1.  Lose extra weight <br>2. Remain physically active <br>3. Reduce eating unhealthy food"
       ]
     },
     {
@@ -169,7 +169,7 @@
         "covid-19 prevention"
       ],
       "responses": [
-        "Prevention for COVID-19: \n1. Avoid crowded places \n2. Wash hands frequently \n3. Wear a face mask when in public"
+        "Prevention for COVID-19: <br>1. Avoid crowded places <br>2. Wash hands frequently <br>3. Wear a face mask when in public"
       ]
     },
     {
@@ -183,7 +183,7 @@
         "hiv/aids prevention?"
       ],
       "responses": [
-        "Prevention for HIV/AIDS: \n1. Avoid sharing razors \n2. Use condom during sex \n3. Always use sterile needles"
+        "Prevention for HIV/AIDS: <br>1. Avoid sharing razors <br>2. Use condom during sex <br>3. Always use sterile needles"
       ]
     },
     {
