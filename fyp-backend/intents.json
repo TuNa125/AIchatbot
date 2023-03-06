@@ -51,7 +51,7 @@
         "definition?"
       ],
       "responses": [
-        "Hi, please specify which disease \n1. Diabetes definition \n2. COVID-19 definition \n3. HIV/AIDS definition"
+        "Hi, please specify which disease <br>1. Diabetes definition <br>2. COVID-19 definition <br>3. HIV/AIDS definition"
       ]
     },
     {
@@ -63,7 +63,7 @@
         "diabetes definition"
       ],
       "responses": [
-        "Based on World Health Organisation (WHO), Diabetes is a chronic disease that occurs either when the pancreas does not produce enough insulin or when the body cannot effectively use the insulin it produces. Insulin is a hormone that regulates blood glucose. Hyperglycaemia, also called raised blood glucose or raised blood sugar, is a common effect of uncontrolled diabetes and over time leads to serious damage to many of the body's systems, especially the nerves and blood vessels. \nThere are two types of diabetes which are the type 1 and type 2 diabetes: \n1. Type 1 diabetes (previously known as insulin-dependent, juvenile or childhood-onset) is characterized by deficient insulin production and requires daily administration of insulin. \n2. Type 2 diabetes (formerly called non-insulin-dependent, or adult-onset) results from the body’s ineffective use of insulin."
+        "Based on World Health Organisation (WHO), Diabetes is a chronic disease that occurs either when the pancreas does not produce enough insulin or when the body cannot effectively use the insulin it produces. <br>Insulin is a hormone that regulates blood glucose. <br>Hyperglycaemia, also called raised blood glucose or raised blood sugar, is a common effect of uncontrolled diabetes and over time leads to serious damage to many of the body's systems, especially the nerves and blood vessels. <br>There are two types of diabetes which are the type 1 and type 2 diabetes: <br>1. Type 1 diabetes (previously known as insulin-dependent, juvenile or childhood-onset) is characterized by deficient insulin production and requires daily administration of insulin. <br>2. Type 2 diabetes (formerly called non-insulin-dependent, or adult-onset) results from the body’s ineffective use of insulin."
       ]
     },
     {
@@ -76,7 +76,7 @@
         "covid-19 definition?"
       ],
       "responses": [
-        "Based on World Health Organisation (WHO), Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus. \nMost people infected with the virus will experience mild to moderate respiratory illness and recover without requiring special treatment. However, some will become seriously ill and require medical attention. Older people and those with underlying medical conditions like cardiovascular disease, diabetes, chronic respiratory disease, or cancer are more likely to develop serious illness. Anyone can get sick with COVID-19 and become seriously ill or die at any age."
+        "Based on World Health Organisation (WHO), Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus. <br>Most people infected with the virus will experience mild to moderate respiratory illness and recover without requiring special treatment. However, some will become seriously ill and require medical attention. Older people and those with underlying medical conditions like cardiovascular disease, diabetes, chronic respiratory disease, or cancer are more likely to develop serious illness. <br>Anyone can get sick with COVID-19 and become seriously ill or die at any age."
       ]
     },
     {
@@ -88,7 +88,7 @@
         "AIDS definition?"
       ],
       "responses": [
-        "Based on World Health Organisation (WHO), Human immunodeficiency virus (HIV) is an infection that attacks the body’s immune system, specifically the white blood cells called CD4 cells. HIV destroys these CD4 cells, weakening a person’s immunity against opportunistic infections, such as tuberculosis and fungal infections, severe bacterial infections and some cancers."
+        "Based on World Health Organisation (WHO), Human immunodeficiency virus (HIV) is an infection that attacks the body’s immune system, specifically the white blood cells called CD4 cells. <br>HIV destroys these CD4 cells, weakening a person’s immunity against opportunistic infections, such as tuberculosis and fungal infections, severe bacterial infections and some cancers."
       ]
     },
     {
