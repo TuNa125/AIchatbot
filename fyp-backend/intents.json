@@ -19,7 +19,7 @@
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": ["Bye", "See you later", "Goodbye", "Quit", "quit"],
       "responses": [
         "See you later, thanks for visiting",
         "Have a nice day",
@@ -28,7 +28,7 @@
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!", "nice"],
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!", "nice", "Nice"],
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
@@ -37,10 +37,16 @@
         "Help",
         "What can I ask?",
         "what can i ask?",
-        "what can i ask"
+        "what can i ask",
+        "Service provided?",
+        "Service provided",
+        "service provided",
+        "service",
+        "Service?",
+        "Service"
       ],
       "responses": [
-        "Hi, please contact 999 for emergency and below is the list of services that are provided: <br>1. Definition of Diabetes, COVID-19 and HIV/AIDS <br>2. Symptoms of Diabetes, COVID-19 and HIV/AIDS <br>3. Prevention of Diabetes, COVID-19 and HIV/AIDS "
+        "Hi, please contact 999 for emergency and below is the list of services that are provided: <br>1. Definition of Diabetes, COVID-19 and HIV/AIDS <br>2. Symptoms of Diabetes, COVID-19 and HIV/AIDS <br>3. Prevention of Diabetes, COVID-19 and HIV/AIDS <br>To continue please type continue in the chatbox below ;) <br>To quit please type quit in the chatbox below :) "
         
       ]
     },
@@ -48,10 +54,12 @@
       "tag": "definition",
       "patterns": [
         "definition",
-        "definition?"
+        "definition?",
+        "Definition",
+        "Definition?"
       ],
       "responses": [
-        "Hi, please specify which disease <br>1. Diabetes definition <br>2. COVID-19 definition <br>3. HIV/AIDS definition"
+        "Hi, please specify definition for which disease and type in the chatbox below :) <br>1. Diabetes definition <br>2. COVID-19 definition <br>3. HIV/AIDS definition"
       ]
     },
     {
@@ -60,10 +68,18 @@
         "Diabetes definition",
         "Diabetes definition?",
         "diabetes definition?",
-        "diabetes definition"
+        "diabetes definition",
+        "Diabetes",
+        "diabetes",
+        "Diabetes?",
+        "diabetes?",
+        "What is diabetes?",
+        "what is diabetes?",
+        "What is diabetes",
+        "what is diabetes"
       ],
       "responses": [
-        "Based on World Health Organisation (WHO), Diabetes is a chronic disease that occurs either when the pancreas does not produce enough insulin or when the body cannot effectively use the insulin it produces. <br>Insulin is a hormone that regulates blood glucose. <br>Hyperglycaemia, also called raised blood glucose or raised blood sugar, is a common effect of uncontrolled diabetes and over time leads to serious damage to many of the body's systems, especially the nerves and blood vessels. <br>There are two types of diabetes which are the type 1 and type 2 diabetes: <br>1. Type 1 diabetes (previously known as insulin-dependent, juvenile or childhood-onset) is characterized by deficient insulin production and requires daily administration of insulin. <br>2. Type 2 diabetes (formerly called non-insulin-dependent, or adult-onset) results from the body’s ineffective use of insulin."
+        "Based on World Health Organisation (WHO), Diabetes is a chronic disease that occurs either when the pancreas does not produce enough insulin or when the body cannot effectively use the insulin it produces. <br>Insulin is a hormone that regulates blood glucose. <br>Hyperglycaemia, also called raised blood glucose or raised blood sugar, is a common effect of uncontrolled diabetes and over time leads to serious damage to many of the body's systems, especially the nerves and blood vessels. <br>There are two types of diabetes which are the type 1 and type 2 diabetes: <br>1. Type 1 diabetes (previously known as insulin-dependent, juvenile or childhood-onset) is characterized by deficient insulin production and requires daily administration of insulin. <br>2. Type 2 diabetes (formerly called non-insulin-dependent, or adult-onset) results from the body ineffective use of insulin. <br>To learn more please type continue in the chatbox below ;) <br>To quit please type quit in the chatbox below :)"
       ]
     },
     {
@@ -73,10 +89,18 @@
         "COVID definition",
         "covid19 definition",
         "COVID-19 definition?",
-        "covid-19 definition?"
+        "covid-19 definition?",
+        "covid",
+        "Covid-19",
+        "covid19",
+        "covid-19",
+        "What is covid-19",
+        "what is covid-19",
+        "What is covid-19?",
+        "what is covid-19?"
       ],
       "responses": [
-        "Based on World Health Organisation (WHO), Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus. <br>Most people infected with the virus will experience mild to moderate respiratory illness and recover without requiring special treatment. However, some will become seriously ill and require medical attention. Older people and those with underlying medical conditions like cardiovascular disease, diabetes, chronic respiratory disease, or cancer are more likely to develop serious illness. <br>Anyone can get sick with COVID-19 and become seriously ill or die at any age."
+        "Based on World Health Organisation (WHO), Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus. <br>Most people infected with the virus will experience mild to moderate respiratory illness and recover without requiring special treatment. However, some will become seriously ill and require medical attention. Older people and those with underlying medical conditions like cardiovascular disease, diabetes, chronic respiratory disease, or cancer are more likely to develop serious illness. <br>Anyone can get sick with COVID-19 and become seriously ill or die at any age. <br>To learn more please type continue in the chatbox below ;) <br>To quit please type quit in the chatbox below :)"
       ]
     },
     {
@@ -85,30 +109,44 @@
         "hiv definition",
         "aids definition",
         "HIV definition?",
-        "AIDS definition?"
+        "AIDS definition?",
+        "What is hiv",
+        "what is HIV",
+        "What is HIV/AIDS?",
+        "what is hiv/aids?",
+        "what is aids?",
+        "what is AIDS?"
       ],
       "responses": [
-        "Based on World Health Organisation (WHO), Human immunodeficiency virus (HIV) is an infection that attacks the body’s immune system, specifically the white blood cells called CD4 cells. <br>HIV destroys these CD4 cells, weakening a person’s immunity against opportunistic infections, such as tuberculosis and fungal infections, severe bacterial infections and some cancers."
+        "Based on World Health Organisation (WHO), Human immunodeficiency virus (HIV) is an infection that attacks the body’s immune system, specifically the white blood cells called CD4 cells. <br>HIV destroys these CD4 cells, weakening a person’s immunity against opportunistic infections, such as tuberculosis and fungal infections, severe bacterial infections and some cancers. <br>To learn more please type continue in the chatbox below ;) <br>To quit please type quit in the chatbox below :)"
       ]
     },
     {
       "tag": "symptoms",
       "patterns": [
         "symptoms",
-        "symptom"
+        "symptom",
+        "Symptoms",
+        "Symptom"
       ],
       "responses": [
-        "Hi, please specify which disease <br>1. Diabetes symptoms <br>2. COVID-19 symptoms <br>3. HIV/AIDS symptoms"
+        "Hi, please specify the symptoms for which disease and type in the chatbox below :) <br>1. Diabetes symptoms <br>2. COVID-19 symptoms <br>3. HIV/AIDS symptoms"
       ]
     },
     {
       "tag": "dsymptoms",
       "patterns": [
         "diabetes symptoms",
-        "Diabetes symptoms"
+        "Diabetes symptoms",
+        "diabetes symptom",
+        "Diabetes symptom",
+        "diabetes symptoms?",
+        "Diabetes symptoms?",
+        "diabetes symptom?",
+        "Diabetes symptom?"
       ],
       "responses": [
-        "Common symptoms for diabetes: <br>1. Urinate (pee) a lot, often at night. <br>2. Are very thirsty all the time. <br>3. Lose weight without trying. <br>4. Are very hungry all the time. <br>5. Have numb or tingling hands or feet."
+        "Common symptoms for diabetes: <br>1. Urinate (pee) a lot, often at night. <br>2. Are very thirsty all the time. <br>3. Lose weight without trying. <br>4. Are very hungry all the time. <br>5. Have numb or tingling hands or feet. <br>To learn more please type continue in the chatbox below ;) <br>To quit please type quit in the chatbox below :)"
       ]
     },
     {
@@ -118,10 +156,11 @@
         "COVID symptoms?",
         "covid19 symptoms",
         "COVID-19 symptoms?",
-        "covid-19 symptoms"
+        "covid-19 symptoms",
+        "covid symptom"
       ],
       "responses": [
-        "Common symptoms for COVID-19: <br>1. Fever <br>2. Cough <br>3. Losing sense of taste and smell <br>4. Fatigue <br>5. Muscle or joint aches"
+        "Common symptoms for COVID-19: <br>1. Fever <br>2. Cough <br>3. Losing sense of taste and smell <br>4. Fatigue <br>5. Muscle or joint aches <br>To learn more please type continue in the chatbox below ;) <br>To quit please type quit in the chatbox below :)"
       ]
     },
     {
@@ -130,20 +169,28 @@
         "hiv symptoms",
         "aids symptoms",
         "HIV symptoms",
-        "AIDS symptoms"
+        "AIDS symptoms",
+        "HIV/AIDS symptoms",
+        "hiv/aids symptoms",
+        "HIV/AIDS symptom",
+        "hiv/aids symptom",
+        "aid symptoms",
+        "aid symptom"
       ],
       "responses": [
-        "Common symptoms for HIV/AIDS: <br>1. Flu <br>2. Chills <br>3. Cold sweats <br>4. Sore throat <br>5. Constant fatigue"
+        "Common symptoms for HIV/AIDS: <br>1. Flu <br>2. Chills <br>3. Cold sweats <br>4. Sore throat <br>5. Constant fatigue <br>To learn more please type continue in the chatbox below ;) <br>To quit please type quit in the chatbox below :)"
       ]
     },
     {
       "tag": "prevention",
       "patterns": [
         "prevention?",
-        "prevention"
+        "prevention",
+        "Prevention",
+        "Prevention?"
       ],
       "responses": [
-        "Please specify prevention for what disease <br>1. Diabetes prevention <br>2. COVID-19 prevention <br>3. HIV/AIDS prevention"
+        "Please specify the prevention for what disease and type in the chatbox below :) <br>1. Diabetes prevention <br>2. COVID-19 prevention <br>3. HIV/AIDS prevention"
       ]
     },
     {
@@ -155,7 +202,7 @@
         "diabetes prevention?"
       ],
       "responses": [
-        "Prevention for diabetes: <br>1.  Lose extra weight <br>2. Remain physically active <br>3. Reduce eating unhealthy food"
+        "Prevention for diabetes: <br>1.  Lose extra weight <br>2. Remain physically active <br>3. Reduce eating unhealthy food <br>To learn more please type continue in the chatbox below ;) <br>To quit please type quit in the chatbox below :)"
       ]
     },
     {
@@ -169,7 +216,7 @@
         "covid-19 prevention"
       ],
       "responses": [
-        "Prevention for COVID-19: <br>1. Avoid crowded places <br>2. Wash hands frequently <br>3. Wear a face mask when in public"
+        "Prevention for COVID-19: <br>1. Avoid crowded places <br>2. Wash hands frequently <br>3. Wear a face mask when in public <br>To learn more please type continue in the chatbox below ;) <br>To quit please type quit in the chatbox below :)"
       ]
     },
     {
@@ -183,7 +230,30 @@
         "hiv/aids prevention?"
       ],
       "responses": [
-        "Prevention for HIV/AIDS: <br>1. Avoid sharing razors <br>2. Use condom during sex <br>3. Always use sterile needles"
+        "Prevention for HIV/AIDS: <br>1. Avoid sharing razors <br>2. Use condom during sex <br>3. Always use sterile needles <br>To learn more please type continue in the chatbox below ;) <br>To quit please type quit in the chatbox below :)"
+      ]
+    },
+    {
+      "tag": "learnmore",
+      "patterns": [
+        "more?",
+        "learn more?",
+        "learn more"
+      ],
+      "responses": [
+        "Here is the list of services that are provided. <br>1. Definition of Diabetes, COVID-19 and HIV/AIDS <br>2. Symptoms of Diabetes, COVID-19 and HIV/AIDS <br>3. Prevention of Diabetes, COVID-19 and HIV/AIDS <br>Please type in the chat to learn more about the top diseases in Malaysia :)"
+      ]
+    },
+    {
+      "tag": "continue",
+      "patterns": [
+        "continue",
+        "continue?",
+        "Continue",
+        "Continue?"
+      ],
+      "responses": [
+        "Here is the list of services that are provided. <br>1. Definition of Diabetes, COVID-19 and HIV/AIDS <br>2. Symptoms of Diabetes, COVID-19 and HIV/AIDS <br>3. Prevention of Diabetes, COVID-19 and HIV/AIDS <br>Please type in the chat to continue learning about the top diseases in Malaysia ;)"
       ]
     },
     {
