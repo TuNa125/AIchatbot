@@ -253,9 +253,22 @@
         "Continue?"
       ],
       "responses": [
-        "Here is the list of services that are provided. <br>1. Definition of Diabetes, COVID-19 and HIV/AIDS <br>2. Symptoms of Diabetes, COVID-19 and HIV/AIDS <br>3. Prevention of Diabetes, COVID-19 and HIV/AIDS <br>Please type in the chat to continue learning about the top diseases in Malaysia ;)"
+        "Please choose from the list below to learn more :) <br>1. Definition of Diabetes, COVID-19 and HIV/AIDS <br>2. Symptoms of Diabetes, COVID-19 and HIV/AIDS <br>3. Prevention of Diabetes, COVID-19 and HIV/AIDS <br>Please type in the chat to continue learning about the top diseases in Malaysia ;)"
       ]
-    },
+    },{
+      "tag": "numbers",
+      "patterns": [
+        "1.",
+        "2.",
+        "3.",
+        "1",
+        "2",
+        "3"
+      ],
+      "responses": [
+        "Please choose by typing the name of the disease followed by the infomation <br>For example, please type Diabetes symptoms to know more about diabetes symptoms"
+      ]
+    }
     {
       "tag": "funny",
       "patterns": [
