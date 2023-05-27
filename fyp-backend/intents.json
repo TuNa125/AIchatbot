@@ -46,7 +46,21 @@
         "Service"
       ],
       "responses": [
-        "Hi, please contact 999 for emergency and below is the list of services that are provided: <br>1. Definition of Diabetes, COVID-19 and HIV/AIDS <br>2. Symptoms of Diabetes, COVID-19 and HIV/AIDS <br>3. Prevention of Diabetes, COVID-19 and HIV/AIDS <br>To continue please type continue in the chatbox below ;) <br>To quit please type quit in the chatbox below :) "
+        "Hi, please contact 999 for emergency and below is the list of services that are provided: <br>1. Definition of Diabetes, COVID-19 and HIV/AIDS <br>2. Symptoms of Diabetes, COVID-19 and HIV/AIDS <br>3. Prevention of Diabetes, COVID-19 and HIV/AIDS <br>4. Treatement of Diabetes, COVID-19 and HIV/AIDS <br>To continue please type continue in the chatbox below ;) <br>To quit please type quit in the chatbox below :) "
+        
+      ]
+    },
+    {
+      "tag": "vulgar",
+      "patterns": [
+        "fuck",
+        "fuck you",
+        "fuck off",
+        "penis",
+        "damn"
+      ],
+      "responses": [
+        "Hi, please refrain from using these kind of words, thank you :)"
         
       ]
     },
@@ -233,6 +247,60 @@
         "Prevention for HIV/AIDS: <br>1. Avoid sharing razors <br>2. Use condom during sex <br>3. Always use sterile needles <br>To learn more please type continue in the chatbox below ;) <br>To quit please type quit in the chatbox below :)"
       ]
     },
+    // newly added for treatment 
+    {
+      "tag": "prevention",
+      "patterns": [
+        "prevention?",
+        "prevention",
+        "Prevention",
+        "Prevention?"
+      ],
+      "responses": [
+        "Please specify the prevention for what disease and type in the chatbox below :) <br>1. Diabetes prevention <br>2. COVID-19 prevention <br>3. HIV/AIDS prevention"
+      ]
+    },
+    {
+      "tag": "dprevention",
+      "patterns": [
+        "diabetes prevention?",
+        "Diabetes prevention",
+        "Diabetes prevention?",
+        "diabetes prevention?"
+      ],
+      "responses": [
+        "Prevention for diabetes: <br>1.  Lose extra weight <br>2. Remain physically active <br>3. Reduce eating unhealthy food <br>To learn more please type continue in the chatbox below ;) <br>To quit please type quit in the chatbox below :)"
+      ]
+    },
+    {
+      "tag": "cprevention",
+      "patterns": [
+        "covid-19 prevention?",
+        "covid prevention",
+        "COVID prevention?",
+        "COVID-19 prevention?",
+        "COVID-19 prevention",
+        "covid-19 prevention"
+      ],
+      "responses": [
+        "Prevention for COVID-19: <br>1. Avoid crowded places <br>2. Wash hands frequently <br>3. Wear a face mask when in public <br>To learn more please type continue in the chatbox below ;) <br>To quit please type quit in the chatbox below :)"
+      ]
+    },
+    {
+      "tag": "hprevention",
+      "patterns": [
+        "hiv prevention?",
+        "HIV prevention",
+        "aids prevention?",
+        "AIDS prevention?",
+        "HIV/AIDS prevention",
+        "hiv/aids prevention?"
+      ],
+      "responses": [
+        "Prevention for HIV/AIDS: <br>1. Avoid sharing razors <br>2. Use condom during sex <br>3. Always use sterile needles <br>To learn more please type continue in the chatbox below ;) <br>To quit please type quit in the chatbox below :)"
+      ]
+    },
+    // until here is for treatment
     {
       "tag": "learnmore",
       "patterns": [
