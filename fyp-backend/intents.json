@@ -160,7 +160,7 @@
         "Diabetes symptom?"
       ],
       "responses": [
-        "Common symptoms for diabetes: <br>1. Urinate (pee) a lot, often at night. <br>2. Are very thirsty all the time. <br>3. Lose weight without trying. <br>4. Are very hungry all the time. <br>5. Have numb or tingling hands or feet. <br>To learn more please type continue in the chatbox below ;) <br>To quit please type quit in the chatbox below :)"
+        "Common symptoms for diabetes based on WHO: <br>1. Urinate (pee) a lot, often at night. <br>2. Are very thirsty all the time. <br>3. Lose weight without trying. <br>4. Are very hungry all the time. <br>5. Have numb or tingling hands or feet. <br>To learn more please type continue in the chatbox below ;) <br>To quit please type quit in the chatbox below :)"
       ]
     },
     {
@@ -174,7 +174,7 @@
         "covid symptom"
       ],
       "responses": [
-        "Common symptoms for COVID-19: <br>1. Fever <br>2. Cough <br>3. Losing sense of taste and smell <br>4. Fatigue <br>5. Muscle or joint aches <br>To learn more please type continue in the chatbox below ;) <br>To quit please type quit in the chatbox below :)"
+        "Common symptoms for COVID-19 based on WHO: <br>1. Fever <br>2. Cough <br>3. Losing sense of taste and smell <br>4. Fatigue <br>5. Muscle or joint aches <br>To learn more please type continue in the chatbox below ;) <br>To quit please type quit in the chatbox below :)"
       ]
     },
     {
@@ -192,7 +192,7 @@
         "aid symptom"
       ],
       "responses": [
-        "Common symptoms for HIV/AIDS: <br>1. Flu <br>2. Chills <br>3. Cold sweats <br>4. Sore throat <br>5. Constant fatigue <br>To learn more please type continue in the chatbox below ;) <br>To quit please type quit in the chatbox below :)"
+        "Common symptoms for HIV/AIDS based on WHO: <br>1. Flu <br>2. Chills <br>3. Cold sweats <br>4. Sore throat <br>5. Constant fatigue <br>To learn more please type continue in the chatbox below ;) <br>To quit please type quit in the chatbox below :)"
       ]
     },
     {
@@ -216,7 +216,7 @@
         "diabetes prevention?"
       ],
       "responses": [
-        "Prevention for diabetes: <br>1.  Lose extra weight <br>2. Remain physically active <br>3. Reduce eating unhealthy food <br>To learn more please type continue in the chatbox below ;) <br>To quit please type quit in the chatbox below :)"
+        "Prevention for diabetes based on WHO: <br>1.  Lose extra weight <br>2. Remain physically active <br>3. Reduce eating unhealthy food <br>To learn more please type continue in the chatbox below ;) <br>To quit please type quit in the chatbox below :)"
       ]
     },
     {
@@ -230,7 +230,7 @@
         "covid-19 prevention"
       ],
       "responses": [
-        "Prevention for COVID-19: <br>1. Avoid crowded places <br>2. Wash hands frequently <br>3. Wear a face mask when in public <br>To learn more please type continue in the chatbox below ;) <br>To quit please type quit in the chatbox below :)"
+        "Prevention for COVID-19 based on WHO: <br>1. Avoid crowded places <br>2. Wash hands frequently <br>3. Wear a face mask when in public <br>To learn more please type continue in the chatbox below ;) <br>To quit please type quit in the chatbox below :)"
       ]
     },
     {
@@ -244,46 +244,48 @@
         "hiv/aids prevention?"
       ],
       "responses": [
-        "Prevention for HIV/AIDS: <br>1. Avoid sharing razors <br>2. Use condom during sex <br>3. Always use sterile needles <br>To learn more please type continue in the chatbox below ;) <br>To quit please type quit in the chatbox below :)"
+        "Prevention for HIV/AIDS based on WHO: <br>1. Avoid sharing razors <br>2. Use condom during sex <br>3. Always use sterile needles <br>To learn more please type continue in the chatbox below ;) <br>To quit please type quit in the chatbox below :)"
       ]
     },
     // newly added for treatment 
     {
-      "tag": "prevention",
+      "tag": "treatment",
       "patterns": [
-        "prevention?",
-        "prevention",
-        "Prevention",
-        "Prevention?"
+        "treatement?",
+        "treatment",
+        "Treatment",
+        "Treatment?"
       ],
       "responses": [
-        "Please specify the prevention for what disease and type in the chatbox below :) <br>1. Diabetes prevention <br>2. COVID-19 prevention <br>3. HIV/AIDS prevention"
+        "Please specify the treatement for what disease and type in the chatbox below :) <br>1. Diabetes treatment <br>2. COVID-19 treatment <br>3. HIV/AIDS treatment"
       ]
     },
     {
-      "tag": "dprevention",
+      "tag": "dtreatment",
       "patterns": [
-        "diabetes prevention?",
-        "Diabetes prevention",
-        "Diabetes prevention?",
-        "diabetes prevention?"
+        "diabetes treatment?",
+        "Diabetes treatment",
+        "Diabetes treatment?",
+        "diabetes treatment?"
       ],
       "responses": [
-        "Prevention for diabetes: <br>1.  Lose extra weight <br>2. Remain physically active <br>3. Reduce eating unhealthy food <br>To learn more please type continue in the chatbox below ;) <br>To quit please type quit in the chatbox below :)"
+        "Treatment for diabetes based on WHO: <br>1.  Keep a healthy lifestyle <br>2. Take medicines daily to control blood sugar level <br>3. Insulin injections before every meal <br>To learn more please type continue in the chatbox below ;) <br>To quit please type quit in the chatbox below :)"
       ]
     },
     {
-      "tag": "cprevention",
+      "tag": "ctreatment",
       "patterns": [
-        "covid-19 prevention?",
-        "covid prevention",
-        "COVID prevention?",
-        "COVID-19 prevention?",
-        "COVID-19 prevention",
-        "covid-19 prevention"
+        "covid-19 treatment?",
+        "covid treatment",
+        "COVID treatment?",
+        "COVID-19 treatment?",
+        "COVID-19 treatment",
+        "covid-19 treatment"
       ],
       "responses": [
-        "Prevention for COVID-19: <br>1. Avoid crowded places <br>2. Wash hands frequently <br>3. Wear a face mask when in public <br>To learn more please type continue in the chatbox below ;) <br>To quit please type quit in the chatbox below :)"
+        "Treatment for COVID-19 based on WHO and KKM According to the Ministry of Health Malaysia (MOH), there is no specific medicine to treat COVID-19. <br> Currently, COVID-19 patients are being treated according to COVID-19 category, patient’s clinical status, laboratory and imaging test results. <br> The treatment plans for COVID-19 patients in Malaysia are based on 5 levels of severity or clinical category of patients: <br> Category 1: No symptom <br> Category 2: Symptomatic without lung infection <br> Category 3: Symptomatic with lung infection <br> Category 4: Symptomatic with lung infection and need oxygen supplementation <br> Category 5: Critical patients with multiple organs complications1.
+
+        <br> Generally, there is no specific treatment for COVID-19 patients in Category 1. <br> As of Category 2 and 3, the patients will be given symptomatic treatments such as medicines to relieve fever, cough and flu. <br> Furthermore, care will be given to patients to optimise their nutritional status and maintain good blood circulation. <br>To learn more please type continue in the chatbox below ;) <br>To quit please type quit in the chatbox below :)"
       ]
     },
     {
