@@ -247,7 +247,6 @@
         "Prevention for HIV/AIDS based on WHO: <br>1. Avoid sharing razors <br>2. Use condom during sex <br>3. Always use sterile needles <br>To learn more please type continue in the chatbox below ;) <br>To quit please type quit in the chatbox below :)"
       ]
     },
-    // newly added for treatment 
     {
       "tag": "treatment",
       "patterns": [
@@ -300,7 +299,6 @@
         "Treatment for HIV/AIDS based on WHO and KKM:  There is no cure for HIV infection. <br> It is treated with antiretroviral drugs, which stop the virus from replicating in the body. <br> There is a technology call antiretroviral therapy (ART) however it does not cure HIV infection but itallows a person’s immune system to get stronger. <br> This helps them to fight other infections.<br> Currently, ART must be taken every day for the rest of a person’s life. <br>To learn more please type continue in the chatbox below ;) <br>To quit please type quit in the chatbox below :)"
       ]
     },
-    // until here is for treatment
     {
       "tag": "learnmore",
       "patterns": [
