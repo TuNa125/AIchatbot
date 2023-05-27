@@ -283,23 +283,21 @@
         "covid-19 treatment"
       ],
       "responses": [
-        "Treatment for COVID-19 based on WHO and KKM According to the Ministry of Health Malaysia (MOH), there is no specific medicine to treat COVID-19. <br> Currently, COVID-19 patients are being treated according to COVID-19 category, patient’s clinical status, laboratory and imaging test results. <br> The treatment plans for COVID-19 patients in Malaysia are based on 5 levels of severity or clinical category of patients: <br> Category 1: No symptom <br> Category 2: Symptomatic without lung infection <br> Category 3: Symptomatic with lung infection <br> Category 4: Symptomatic with lung infection and need oxygen supplementation <br> Category 5: Critical patients with multiple organs complications1.
-
-        <br> Generally, there is no specific treatment for COVID-19 patients in Category 1. <br> As of Category 2 and 3, the patients will be given symptomatic treatments such as medicines to relieve fever, cough and flu. <br> Furthermore, care will be given to patients to optimise their nutritional status and maintain good blood circulation. <br>To learn more please type continue in the chatbox below ;) <br>To quit please type quit in the chatbox below :)"
+        "Treatment for COVID-19 based on WHO and KKM According to the Ministry of Health Malaysia (MOH), there is no specific medicine to treat COVID-19. <br> Currently, COVID-19 patients are being treated according to COVID-19 category, patient’s clinical status, laboratory and imaging test results. <br> The treatment plans for COVID-19 patients in Malaysia are based on 5 levels of severity or clinical category of patients: <br> Category 1: No symptom <br> Category 2: Symptomatic without lung infection <br> Category 3: Symptomatic with lung infection <br> Category 4: Symptomatic with lung infection and need oxygen supplementation <br> Category 5: Critical patients with multiple organs complications1. <br> Generally, there is no specific treatment for COVID-19 patients in Category 1. <br> As of Category 2 and 3, the patients will be given symptomatic treatments such as medicines to relieve fever, cough and flu. <br> Furthermore, care will be given to patients to optimise their nutritional status and maintain good blood circulation. <br>To learn more please type continue in the chatbox below ;) <br>To quit please type quit in the chatbox below :)"
       ]
     },
     {
-      "tag": "hprevention",
+      "tag": "htreatment",
       "patterns": [
-        "hiv prevention?",
-        "HIV prevention",
-        "aids prevention?",
-        "AIDS prevention?",
-        "HIV/AIDS prevention",
-        "hiv/aids prevention?"
+        "hiv treatment?",
+        "HIV treatment",
+        "aids treatment?",
+        "AIDS treatment?",
+        "HIV/AIDS treatment",
+        "hiv/aids treatment?"
       ],
       "responses": [
-        "Prevention for HIV/AIDS: <br>1. Avoid sharing razors <br>2. Use condom during sex <br>3. Always use sterile needles <br>To learn more please type continue in the chatbox below ;) <br>To quit please type quit in the chatbox below :)"
+        "Treatment for HIV/AIDS based on WHO and KKM:  There is no cure for HIV infection. <br> It is treated with antiretroviral drugs, which stop the virus from replicating in the body. <br> There is a technology call antiretroviral therapy (ART) however it does not cure HIV infection but itallows a person’s immune system to get stronger. <br> This helps them to fight other infections.<br> Currently, ART must be taken every day for the rest of a person’s life. <br>To learn more please type continue in the chatbox below ;) <br>To quit please type quit in the chatbox below :)"
       ]
     },
     // until here is for treatment
